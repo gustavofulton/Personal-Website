@@ -14,11 +14,15 @@
             <script src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'></script>
             <script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
             </head>
-            <body>";
-
-            navLogin();
-
-      echo "  <div class='container'>
+            <body>
+              <nav class='navbar navbar-inverse navbar-fixed-top'>
+                <div class='navbar-header'>
+                  <a class='navbar-brand' style = 'padding-left: 100px' href='#'>Logo</a>
+                </div>
+                <div class='navbar-collapse'>
+                </div>
+              </nav>
+              <div class='container'>
                 <div class='row-md text-center'>
                   <div class='col-md-6 text-left'> 
                     <h1> This is a test game developed by Gustavo Fulton Fernandes </h1>
@@ -36,12 +40,11 @@
                     <input type='text' class='input' placeholder='Password' style='border-radius: 9px'>
                     </br> </br>
                     <div class='btn btn-success'>
-                      <a href='#' />
-                      Submit
+                      <a href='#'>Submit</a>
                     </div>
                 </div>
                 <div class='row-md'>
-                  <div class='col-md-12>
+                  <div class='col-md-12'>
                     <p> Copyright </p>
                   </div>
                 </div>
