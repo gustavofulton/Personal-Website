@@ -470,32 +470,33 @@ footer .footer-below {
     border: 3px double #CCCCCC;
     overflow: hidden;
 }
-p{
-  color: lime; 
-  font-family: "Courier";
-  font-size: 30px;
-  white-space: nowrap;
-  padding-left:38%;
-  overflow: hidden;
-  width: 63%;
-  animation: type 6s steps(50, end); 
+.element {
+    font-size: 30px;
 }
 
-.animation{
+.role {
+    font-size: 20px;
+}
+
+.typed-cursor{
+    opacity: 1;
     font-size: 30px;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 1s infinite;
     animation: blink 1s infinite;
 }
-
-@keyframes type{ 
-  from { width: 0; } 
-} 
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; } 
-} 
-
 @keyframes blink{
-  to{opacity: .0;}
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

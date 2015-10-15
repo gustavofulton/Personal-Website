@@ -76,17 +76,10 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <script>
-  $(function(){
-      $(".element").typed({
-        strings: ["First sentence.", "Second sentence."],
-        typeSpeed: 0
-      });
-  });
-</script>
-                        <div class="element">Gustavo Fulton Fernandes<span class="animation">_</span></div>
+                        <span class="element">
+                        </span>
                         <hr class="star-light">
-                        <div class="skills">Web Developer - Michigan State University </div>
+                        <span class="role"></span>
                     </div>
                 </div>
             </div>
@@ -465,6 +458,26 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <!-- Typewriter-->
+    <script src="js/typed.js"></script>
+    <script>
+        $(function(){
+            $(".element").typed({
+            strings: ["Gustavo Fulton Fernandes"],
+            typeSpeed: 100,
+            showCursor: false,
+            });
+        });
+    </script>
+        <script>
+        $(function(){
+            $(".role").typed({
+            strings: ["Bootstrap lover.", "Security Specialist.", "Web Developer."],
+            typeSpeed: 80,
+            startDelay: 3700,
+            });
+        });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
