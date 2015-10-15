@@ -48,7 +48,6 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -63,7 +62,6 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
 }
 
 hr.star-primary {
@@ -97,10 +95,9 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Courier,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 0;
 }
 
 header .intro-text .skills {
@@ -460,4 +457,45 @@ footer .footer-below {
 
 .text-center {
     text-align: center;
+}
+
+.console {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    font-family: Courier;
+    color: lime;
+    background: #000000;
+    border: 3px double #CCCCCC;
+    overflow: hidden;
+}
+p{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 30px;
+  white-space: nowrap;
+  padding-left:38%;
+  overflow: hidden;
+  width: 63%;
+  animation: type 6s steps(50, end); 
+}
+
+.animation{
+    font-size: 30px;
+    animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
 }

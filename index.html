@@ -71,14 +71,22 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="console">
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Gustavo F. Fernandes</span>
+                        <script>
+  $(function(){
+      $(".element").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
+                        <div class="element">Gustavo Fulton Fernandes<span class="animation">_</span></div>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Michigan State University </span>
+                        <div class="skills">Web Developer - Michigan State University </div>
                     </div>
                 </div>
             </div>
@@ -200,7 +208,7 @@
                                 <a href="#"><i class="fa fa-github fa-5x"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-facebook fa-5x"></i></a>
+                                <a href="#"><i class="fa fa-facebook-square fa-5x"></i></a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-google-plus fa-5x"></i></a>
