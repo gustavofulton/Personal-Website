@@ -462,7 +462,7 @@ footer .footer-below {
 .console {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 12%;
+    padding-top: 06%;
     padding-bottom: 5%;
     font-family: Courier;
     color: lime;
@@ -499,4 +499,8 @@ footer .footer-below {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+a:hover {
+    color: white!important;
 }
