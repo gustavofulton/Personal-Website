@@ -500,3 +500,6 @@ a:hover {
     font-family: Ubuntu;
     src: url('../fonts/UbuntuMono-R.ttf');
 }
+#img1,#img2,#img3,#img4 {
+    display: none;
+}
