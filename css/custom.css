@@ -86,7 +86,8 @@ header {
 }
 
 header .container {
-    position: absolute;
+    position: relative;
+    overflow: hidden;
     padding-top: 100px;
     padding-bottom: 50px;
     font-family: Ubuntu;
@@ -502,58 +503,5 @@ footer .footer-below {
 }
 
 #container {
-  position: relative;
-  overflow: hidden;
-}
-#nodegarden {
-    position: absolute;
-    width: 100%;
-}
-.moon {
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  width: 1.25rem;
-  height: 1.25rem;
-  padding: 1rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
 
-.moon:hover {
-    background-color: #0a0a0a;
-    fill: #fff;
 }
-@media (max-width: 1024px) {
-  .moon {
-    width: 1rem;
-    height: 1rem;
-    }
-  .ribbon {
-    transform: scale(.75);
-    transform-origin: 100% 0;
-    }
-}
-
-@media (max-width: 640px) {
-  .moon {
-    width: 1rem;
-    height: 1rem;
-    }
-  .ribbon {
-    transform: scale(.5);
-    transform-origin: 100% 0;
-    }
-}
-.nightmode {
-    background-color: #0a0a0a;
-}
-
-.moon {
-      fill: #fff;
-  }
-
-.nightmode .moon:hover {
-        background-color: #fefefe;
-        fill: #000;
-    }
