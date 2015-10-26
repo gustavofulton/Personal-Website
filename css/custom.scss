@@ -44,6 +44,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.star-light:after, .star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
 hr {
   &.star-light, &.star-primary {
     margin: 25px auto 30px;
@@ -179,7 +188,7 @@ section {
       color: #2c3e50;
       &:hover, &:focus, &:active, &.active {
         outline: 0;
-        color: #2c3e50;
+        color: $color;
       }
     }
   }
@@ -208,7 +217,7 @@ section {
         width: 100%;
         height: 100%;
         opacity: 0;
-        background: rgba(24, 188, 156, 0.9);
+        background: $color;
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s;
