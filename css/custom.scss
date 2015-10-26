@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 $colors: (
   #cc6698,
   #0869ad,
@@ -508,7 +502,7 @@ html {
 
 #bg {
 	position: absolute;
-	height: 50%;
+	background: radial-gradient(ellipse at center, $color 50%, darken($color, 50%) 100%);
 }
 
 a:hover, a:focus {
