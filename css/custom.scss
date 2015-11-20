@@ -508,9 +508,6 @@ footer {
 #about {
   background: radial-gradient(ellipse at center, $color 50%, darken($color, 20%) 100%);
 }
-#portfolio {
-  background: radial-gradient(ellipse at center, white 87%, darken($color, 20%) 100%);
-}
 a:hover, a:focus{
 	color: $color !important;
 }
